@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="child"><h1>hello-1</h1></div>
+        <div class="child"><h1>hello-2</h1></div>
+        <div class="child"><h1>hello-3</h1></div>
+    </div>
+
+    <script>
+
+        let container = document.querySelectorAll(".child")
+
+        container.forEach(e=>{
+            console.log(e.querySelector("h1").textContent[0])
+        })
+
+    </script>
+</body>
+</html>

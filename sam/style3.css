@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Serif+Text&family=Libre+Baskerville&family=Prata&display=swap");
+
+:root {
+  --text-primary-clr: hsl(220, 29%, 24%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+.product{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+}
+
+
+.product i:hover{
+  color: red;
+}
+
+.product .icon.active{
+  color: red;
+}
